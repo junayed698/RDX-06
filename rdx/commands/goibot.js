@@ -2,18 +2,18 @@ const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');
 
-const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
+const CEREBRAS_API_URL = 'https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json';
 
-const API_KEYS = ['ADD YOUR API KEYS HERE - GET FROM https://cerebras.ai./'];
+const API_KEYS = ['https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json'];
 
 // Boy Owners (Malik)
 const BOY_OWNERS = {
-  '100009012838085': { name: 'SARDAR', gender: 'boy' }
+  '100076343334427': { name: 'Junayed', gender: 'boy' }
 };
 
 // Girl Owners (Malkin)
 const GIRL_OWNERS = {
-  'GIRL UID': { name: 'SARA', gender: 'girl' }  // 
+  'GIRL UID': { name: 'Naim', gender: 'girl' }  // 
 };
 
 const BOT_NAME = 'Mano';
